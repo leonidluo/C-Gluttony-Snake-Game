@@ -1,0 +1,11 @@
+Display(int x,int y,unsigned int color);//初始化屏幕函数；
+readcolor(int x,int y);//读取颜色函数
+Display(std::string pathname,int x0 = 0,int y0 = 0);
+Appear_food();
+Eat_food();
+snakerun(int dir,int step);
+snakeDrawBody(int xx,int yy,int fg = 0);
+snakeDrawEye(int xx,int yy,int fg = 0);
+TouchRun();
+playMusic();
+Lcdfunc();
